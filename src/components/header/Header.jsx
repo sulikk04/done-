@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import '../../styles/Header/Header.css'
 import Burger from './Burger'
 import { Link } from 'react-router-dom'
@@ -6,11 +6,34 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
     const [menuActive, setMenuActive] = useState(false)
-    const items = [{value: 'Каталог', href: '/catalog', id: 1}, {value: 'Стать наставником', href: '/mentor', id: 2}, {value: 'Поддержать нас', href: '/support', id: 3} ]
 
-  return (
-    <>
-        <header>    
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    const handleScroll = () => {
+        const scrollY = window.scrollY;
+        if (scrollY > 50) {
+            setIsScrolled(true);
+        } else {
+            setIsScrolled(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const items = [
+        {value: 'Каталог', href: '/catalog', id: 1},
+        {value: 'Стать наставником', href: '/mentor', id: 2},
+        {value: 'Поддержать нас', href: '/support', id: 3},
+    ]
+
+    return (
+        <>
+        <header className={isScrolled ? 'header scrolled' : 'header'}>    
             <nav className='nav'>
                 <div className="container">
                     <Link to="/" className="nav-brand">at Tariq</Link>
@@ -30,9 +53,7 @@ const Header = () => {
                 <Burger items={items} active={menuActive} setActive={setMenuActive} />
             </nav>
         </header>
-        
-
-    </>
+        </>
   )
 }
 

@@ -7,7 +7,7 @@ const Burger = ({items, active, setActive}) => {
         <div className="burger-content">
             <ul>
                 {items.map(item => 
-                    <div className="burger-li">
+                    <div key={item.id} className="burger-li">
                         <li>
                             <a href={item.href}>{item.value}</a>
                         </li>

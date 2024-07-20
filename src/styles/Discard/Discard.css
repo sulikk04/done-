@@ -1,0 +1,29 @@
+.discard {
+    padding: 0 100px;
+    font-family: Montserrat;
+    background-color: #F8FAFC;
+    min-height: 500px;
+}
+
+.discard-title {
+    color: #334155;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.discard-subtitle {
+    color: #334155;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.discard-content {
+    padding: 10px 0 32px;
+    color: #334155;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.discard-wrap {
+    padding: 64px 0;
+}

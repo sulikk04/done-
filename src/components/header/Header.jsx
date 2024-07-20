@@ -1,18 +1,19 @@
 import React, { useState } from 'react'
 import '../../styles/Header/Header.css'
 import Burger from './Burger'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
     const [menuActive, setMenuActive] = useState(false)
-    const items = [{value: 'Каталог', href: '/catalog'}, {value: 'Стать наставником', href: '/mentor'}, {value: 'Поддержать нас', href: '/support'} ]
+    const items = [{value: 'Каталог', href: '/catalog', id: 1}, {value: 'Стать наставником', href: '/mentor', id: 2}, {value: 'Поддержать нас', href: '/support', id: 3} ]
 
   return (
     <>
         <header>    
             <nav className='nav'>
                 <div className="container">
-                    <div className="nav-brand">at Tariq</div>
+                    <Link to="/" className="nav-brand">at Tariq</Link>
                     <div className="nav-menu">
                         <ul className="menu">
                             <li className="menu-item logo-catalog"><div className="menu-link">Каталог</div></li>

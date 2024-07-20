@@ -1,0 +1,235 @@
+.nav {
+    font-family: 'Manrope' sans-serif;
+    width: 100%;
+    height: 60px;
+}
+
+.nav .container {
+    background-color: #F8FAFC;
+    padding: 0 100px;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    left: 0;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #334155;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu-link {
+    font-weight: 400;
+    font-size: 16px;
+    color: #334155;
+    display: inline-block;
+}
+
+.menu-item {
+    margin-right: 64px;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item:hover {
+    border-radius: 6px;
+    padding: 7px 4px 7px 13px;
+    background: #E2E8F0;
+    transform: scale(1.0);
+    transition: 0.1s ease-in;
+}
+
+.menu-item:last-child {
+    margin-left: 0;
+}
+
+
+.logo-catalog:before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    transform: translate(-10px, 0);
+    background: url('../../assets/catalog.svg');
+    color: #334155;
+}
+
+.logo-mentor:before {
+    content: '';
+    display: inline-block;
+    width: 19px;
+    height: 16px;
+    transform: translate(-10px, 0);
+    background: url('../../assets/mentor.svg');
+    color: #334155;
+}
+
+.logo-support:before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 17px;
+    transform: translate(-10px, 0);
+    background: url('../../assets/support.svg');
+    color: #334155;
+}
+
+.hambuger {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .menu-item {
+        margin-right: 50px;
+    }
+
+    .nav-brand {
+        font-size: 28px;
+    }
+
+    .menu-link {
+        font-size: 13px;
+    }
+
+    .logo-catalog:before {
+        transform: translate(-10px, 3px);
+    }
+}
+
+@media (max-width: 869px) {
+    .menu-item {
+        margin-right: 30px;
+    }
+
+    .menu {
+        justify-content: right;
+    }
+
+    .menu-link {
+        font-size: 13px;
+    }
+
+    .logo-catalog:before {
+        width: 14px;
+        height: 14px;   
+        transform: translate(-10px, 4px);
+    }
+    
+    .logo-mentor:before {
+        width: 19px;
+        height: 16px;   
+        transform: translate(-10px, 3px);
+    }
+    
+    .logo-support:before {
+        width: 16px;
+        height: 17px;   
+        transform: translate(-10px, 4px);
+    }
+}
+
+@media (max-width: 769px) {
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        flex-direction: column;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 0;
+        background-color: rgba(199, 199, 199, 0.9);
+        transition: 0.5s all;
+    } 
+
+    .menu-active {
+        left: 0;
+    }
+
+    .logo-catalog:before {
+        background: none;
+        width: 0;
+        height: 0;
+        transform: none;
+    }
+    
+    .logo-mentor:before {
+        background: none;
+        width: 0;
+        height: 0;
+        transform: none;
+    }
+    
+    .logo-support:before {
+        background: none;
+        width: 0;
+        height: 0;
+        transform: none;
+    }
+
+    .menu-item {
+        cursor: pointer;
+        transition: none;
+        margin-bottom: 50px;
+    }
+    
+    .menu-item:hover {
+        border-radius: none;
+        padding: 0;
+        background: none;
+        transform: none;
+        transition: none;
+    }
+    .menu li {
+        margin-right: 0;
+    }
+
+    .burger-btn {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.burger-btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 20px;
+    background-color: rgba(199, 199, 199, 0.9);
+    height: 2px;
+}
+
+.burger-btn span {
+    content: '';
+    position: absolute;
+    top: 9px;
+    width: 20px;
+    background-color: rgba(199, 199, 199, 0.9);
+    height: 2px;
+}
+
+.burger-btn:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    background-color: rgba(199, 199, 199, 0.9);
+    height: 2px;
+}
+}

@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import '../../styles/Footer/Footer.css'
+import { Link } from 'react-router-dom'
+import './Footer.css'
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer>
         <div className="footer-sub">
@@ -33,4 +33,3 @@ const Footer = () => {
   )
 }
 
-export default Footer

@@ -1,7 +1,9 @@
 import { useEffect } from "react"
 import { useLocation } from "react-router-dom"
 
-const ScrollToTop = () => {
+//компонент по нажатию ссылки которого переносит на верх страницы @sulikk
+
+export const ScrollToTop = () => {
     const { pathname } = useLocation()
 
     useEffect(() => {
@@ -11,4 +13,3 @@ const ScrollToTop = () => {
     return null
 }
 
-export default ScrollToTop

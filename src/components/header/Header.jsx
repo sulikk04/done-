@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import '../../styles/Header/Header.css'
+import './Header.css'
 import Burger from './Burger'
 import { Link } from 'react-router-dom'
 
 
-const Header = () => {
+export const Header = () => {
     const [menuActive, setMenuActive] = useState(false)
 
     const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +32,6 @@ const Header = () => {
     ]
 
     return (
-        <>
         <header className={isScrolled ? 'header scrolled' : 'header'}>    
             <nav className='nav'>
                 <div className="container">
@@ -53,8 +52,6 @@ const Header = () => {
                 <Burger items={items} active={menuActive} setActive={setMenuActive} />
             </nav>
         </header>
-        </>
   )
 }
 
-export default Header

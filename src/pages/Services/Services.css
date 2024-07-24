@@ -1,0 +1,409 @@
+.serv {
+    background-color: #F8FAFC;
+    padding: 128px 100px 0;
+    min-height: 500px;  
+}   
+
+.serv-title-wrapper {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.serv-title {
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+.first-half {
+    color: #08AD8F;
+}
+.second-half {
+    color: #334155;
+}
+
+.serv-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.serv-block {
+    border: 1px solid #DFE7EF;
+    border-radius: 10px;
+    width: 550px;
+    padding: 24px;
+}
+
+.serv-round {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.serv-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #08AD8F;
+}
+
+.serv-subtitle {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+}
+
+.subtitle-young {
+    margin-right: 150px;
+}
+
+.serv-text {
+    margin-top: 16px;
+    color: #334155;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.serv-button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 24px;
+}
+
+.serv-button {
+    display: flex;
+    height: 42px;
+    padding: 7px 10px;
+    align-items: center;
+    border-radius: 8px;
+    background: #08AD8F;
+    border: 2px solid #08AD8F;
+}
+
+.serv-button-text {
+    color: #F8FAFC;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.serv-button-logo:after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('../../assets/services-button.svg');
+    transform: translate(5px, 1px);
+}
+
+.serv-info-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.serv-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 128px;
+    border: 1px solid #DFE7EF;
+    border-radius: 10px;
+    padding: 24px;
+    width: 550px;
+}
+
+.serv-subicon {
+    margin: 15px 0 0 100px;
+    background: url('../../assets/serv-book.svg');
+    width: 64px;
+    height: 64px;
+}
+.serv-subicon-3 {
+    background: url('../../assets/serv-woman.svg');
+    margin: 5px 0 0 100px;
+}
+
+.serv-subicon-2 {
+    width: 75px;
+    background: url('../../assets/serv-man.svg');
+    margin: 10px 0 0 100px;
+}
+
+.serv-details {
+    display: flex;
+    flex-direction: column;
+}   
+
+.serv-sublabel {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+}
+
+.serv-subtext {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 1900px) {
+    .serv-block {
+        width: 500px;
+    }
+
+    .serv-subtitle {
+        font-size: 30px;
+    }
+
+    .subtitle-young {
+        margin-right: 140px;
+    }
+
+    .serv-info {
+        width: 500px;
+    }
+
+    .serv-subicon {
+        margin: 15px 0 0 100px;
+        width: 64px;
+        height: 60px;
+    }
+
+    .serv-subicon-2 {
+        width: 85px;
+    }
+
+    .serv-sublabel {
+        font-size: 30px;
+    }
+    
+    .serv-subtext {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1750px) {
+    .serv-block {
+        width: 400px;
+    }
+
+    .serv-subtitle {
+        font-size: 24px;
+    }
+
+    .subtitle-young {
+        margin-right: 110px;
+    }
+
+    .serv-info {
+        width: 400px;
+    }
+
+    .serv-subicon {
+        margin: 15px 0;
+        width: 64px;
+        height: 60px;
+    }
+
+    .serv-subicon-2 {
+        width: 90px;
+    }
+
+    .serv-sublabel {
+        font-size: 30px;
+    }
+    
+    .serv-subtext {
+        font-size: 20px;
+    }
+}
+@media (max-width: 1500px) {
+    .serv-block {
+        width: 370px;
+    }
+
+    .serv-subtitle {
+        font-size: 21px;
+    }
+
+    .subtitle-young {
+        margin-right: 100px;
+    }
+
+    .serv-info {
+        width: 370px;
+    }
+
+    .serv-subicon {
+        margin: 8px 0;
+        width: 80px;
+        height: 60px;
+    }
+
+    .serv-subicon-2 {
+        width: 85px;
+    }
+
+    .serv-sublabel {
+        font-size: 30px;
+    }
+    
+    .serv-subtext {
+        font-size: 20px;
+    }
+
+    .serv-sublabel-2 {
+        font-size: 27px;
+    }
+
+    .serv-subtext-2 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 1350px) {
+    .serv-block {
+        width: 340px;
+    }
+
+    .serv-subtitle {
+        font-size: 19px;
+    }
+
+    .subtitle-young {
+        margin-right: 90px;
+    }
+
+    .serv-info {
+        width: 340px;
+    }
+
+    .serv-subicon {
+        margin: 8px 0;
+        width: 75px;
+        height: 60px;
+    }
+    
+    .serv-subicon-3 {
+        width: 70px;
+    }
+
+    .serv-sublabel {
+        font-size: 25px;
+    }
+    
+    .serv-subtext {
+        font-size: 16px;
+    }
+
+    .serv-subicon-2 {
+        width: 90px;
+    }
+
+    .serv-sublabel-2 {
+        font-size: 22px;
+    }
+
+    .serv-subtext-2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .serv-block {
+        width: 280px;
+    }
+
+    .serv-subtitle {
+        font-size: 14px;
+    }
+
+    .serv-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .subtitle-young {
+        margin-right: 70px;
+    }
+
+    .serv-info {
+        width: 280px;
+    }
+
+    .serv-subicon {
+        margin: 3px 0;
+        width: 75px;
+        height: 60px;
+    }
+
+    .serv-sublabel {
+        font-size: 20px;
+    }
+    
+    .serv-subtext {
+        font-size: 14px;
+    }
+
+    .serv-sublabel-2 {
+        font-size: 18px;
+    }
+
+    .serv-subtext-2 {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .serv-block {
+        width: 240px;
+    }
+
+    .serv-subtitle {
+        font-size: 12px;
+    }
+
+    .serv-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .subtitle-young {
+        margin-right: 60px;
+    }
+
+    .serv-info {
+        width: 240px;
+    }
+
+    .serv-subicon {
+        margin: 0;
+        width: 90px;
+        height: 60px;
+    }
+
+    .serv-sublabel {
+        font-size: 18px;
+    }
+    
+    .serv-subtext {
+        font-size: 12px;
+    }
+
+    .serv-subicon-2 {
+        width: 100px;
+    }
+
+    .serv-sublabel-2 {
+        font-size: 13px;
+    }
+
+    .serv-subtext-2 {
+        font-size: 11px;
+    }
+}

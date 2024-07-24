@@ -1,11 +1,11 @@
-.home {
+.main {
     font-family: 'Manrope', sans-serif;
     padding: 221px 0;
     background: url('../../assets/bg.png') center center/cover no-repeat; 
     min-height: 956px;
 }
 
-.home-block {
+.main-block {
     margin: 0 auto;
     display: flex;
     width: 1000px;
@@ -18,7 +18,7 @@
     backdrop-filter: blur(10px);
 }
 
-.home-title {
+.main-title {
     color: #334155;
     text-align: center;
     font-size: 40px;
@@ -28,7 +28,7 @@
     
 }
 
-.home-subtitle {
+.main-subtitle {
     padding-top: 25px;
     color: #334155;
     text-align: center;
@@ -36,7 +36,7 @@
     font-weight: 400;
 }
 
-.home-buttons {
+.main-buttons {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -63,19 +63,19 @@
     border: 2px solid #366D72;
 }
 
-.home-work {
+.main-work {
     color: #F8FAFC;
     font-size: 21px;
     font-weight: 600;
 }
 
-.home-start {
+.main-start {
     color: #F8FAFC;
     font-size: 21px;
     font-weight: 600;
 }    
 
-.home-logo-work:after {
+.main-logo-work:after {
     content: '';
     display: inline-block;
     width: 33px;
@@ -84,7 +84,7 @@
     transform: translate(8px, 1px);
 }
 
-.home-logo-start:after {
+.main-logo-start:after {
     content: '';
     display: inline-block;  
     width: 33px;
@@ -94,7 +94,7 @@
 }
 
 @media (max-width: 1024px) {
-    .home-block {
+    .main-block {
         width: 800px;
         padding: 140px 100px;
     }

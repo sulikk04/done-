@@ -1,0 +1,89 @@
+.mentors {
+    padding: 128px 100px 0;
+    background-color: #F8FAFC;
+}
+
+.mentors-block {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #DFE7EF;
+    border-radius: 10px;
+    padding: 24px;
+    width: 1000px;
+    margin-top: 64px;
+    
+}
+
+.mentors-title-wrapper {
+    text-align: center;
+}
+
+.mentors-title {
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.half-first {
+    color: #334155;
+}
+
+.half-second {
+    color: #08AD8F;
+}
+
+.mentors-img {
+    background: url('../../assets/mentor-ahmed.png') center center/cover no-repeat;
+    width: 224px;
+    height: 224px;
+}
+
+.mentor-details {
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mentors-name {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.48px;
+}
+
+.mentors-text {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info-label {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info-value {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info-price {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.mentors-tags {
+    display: flex;
+    align-items: flex-end;
+}

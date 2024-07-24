@@ -1,0 +1,25 @@
+.platform {
+    padding: 128px 100px 0;
+    background-color: #F8FAFC;
+}
+
+.platform-title-wrapper {
+    text-align: center;
+    /* margin-bottom: 64px; */
+}
+
+.platform-number {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.platform-subtitle {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

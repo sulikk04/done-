@@ -13,10 +13,10 @@ export const Platform = () => {
             <div className="platform-blocks">
                 <div className="platform-block">
                     <div className="platform-block-wrapper">
-                        <div className="platform-descr">
+                        {/* <div className="platform-descr">
                             <div className="platform-number">1</div>
                             <div className="platform-subtitle">Найдите наставника</div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

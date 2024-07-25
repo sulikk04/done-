@@ -16,7 +16,7 @@ export const Services = () => {
                     <div className="serv-block-wrapper">
                         <div className="serv-descr">
                             <div className="serv-round">
-                                <div className="serv-icon"></div>
+                                <div className="serv-icon"><div className="serv-icon-1"></div></div>
                                 <div className="serv-subtitle">Для тех, кто далеко от<br /> Родины</div>
                             </div>
                             <div className="serv-text">
@@ -32,7 +32,7 @@ export const Services = () => {
                     <div className="serv-block-wrapper">
                         <div className="serv-descr">
                             <div className="serv-round">
-                                <div className="serv-icon"></div>
+                                <div className="serv-icon"><div className="serv-icon-2"></div></div>
                                 <div className="serv-subtitle">Для наших прекрасных<br /> сестер</div>
                             </div>
                             <div className="serv-text">
@@ -48,7 +48,7 @@ export const Services = () => {
                     <div className="serv-block-wrapper">
                         <div className="serv-descr">
                             <div className="serv-round">
-                                <div className="serv-icon"></div>
+                                <div className="serv-icon"><div className="serv-icon-3"></div></div>
                                 <div className="subtitle-young"><div className="serv-subtitle ">Для молодых</div></div>
                             </div>
                             <div className="serv-text">

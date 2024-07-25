@@ -5,13 +5,12 @@
 
 .mentors-block {
     display: flex;
-    align-items: flex-start;
     border: 1px solid #DFE7EF;
     border-radius: 10px;
     padding: 24px;
-    width: 1000px;
+    width: 800px;
     margin-top: 64px;
-    
+    background-color: #fff;
 }
 
 .mentors-title-wrapper {
@@ -41,10 +40,9 @@
 }
 
 .mentor-details {
-    height: 224px;
+    height: inherit;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin-left: 16px;
 }
 
 .mentors-name {
@@ -62,11 +60,22 @@
     font-weight: 400;
 }
 
+.mentors-info {
+    display: flex; 
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+}
+
 .info-label {
     color: #334155;
     font-family: Manrope;
     font-size: 16px;
     font-weight: 400;
+    margin-right: 5px;
 }
 
 .info-value {
@@ -74,6 +83,10 @@
     font-family: Manrope;
     font-size: 16px;
     font-weight: 600;
+}
+
+.info-value-1 {
+    margin-right: 30px;
 }
 
 .info-price {
@@ -85,5 +98,21 @@
 
 .mentors-tags {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.mentors-tag-button {
+    margin-top: 8px;
+    display: flex;
+    padding: 7px 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #08AD8F;
+    background-color: #fff;
+}
+
+.mentors-tag-button:first-child {
+    margin-top: 0;
 }

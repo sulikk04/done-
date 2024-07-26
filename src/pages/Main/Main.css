@@ -52,6 +52,7 @@
     border: 2px solid #F8FAFC;
     background: #5BA8AF;
     margin-right: 25px;
+    transition: 0.3 ease;
 }
 
 .button-start {
@@ -61,6 +62,15 @@
     border-radius: 8px;
     background: #366D72;
     border: 2px solid #366D72;
+    transition: 0.3s ease;
+}
+
+.button-work:hover {
+    background: #51959c;
+}
+
+.button-start:hover {
+    background: #2a5559;
 }
 
 .main-work {

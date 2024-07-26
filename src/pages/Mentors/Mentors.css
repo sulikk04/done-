@@ -5,10 +5,11 @@
 
 .mentors-block {
     display: flex;
+    justify-content: space-between;
     border: 1px solid #DFE7EF;
     border-radius: 10px;
     padding: 24px;
-    width: 800px;
+    width: 750px;
     margin-top: 64px;
     background-color: #fff;
 }
@@ -62,12 +63,13 @@
 
 .mentors-info {
     display: flex; 
+    justify-content: space-between;
 }
 
 .info-item {
     display: flex;
-    align-items: center;
-    margin-top: 21px;
+    align-items: baseline;
+    margin-top: 18px;
 }
 
 .info-label {
@@ -78,15 +80,29 @@
     margin-right: 5px;
 }
 
+.info-label-icon-1:before {
+    content: '';
+    display: inline-block;
+    transform: translate(-4px, 5px);
+    background: url('../../assets/mentors-lessons.png');
+    width: 24px;
+    height: 24px;
+}
+
+.info-label-icon-2:before {
+    content: '';
+    display: inline-block;
+    transform: translate(-4px, 5px);
+    background: url('../../assets/mentors-experience.png');
+    width: 24px;
+    height: 24px;
+}
+
 .info-value {
     color: #334155;
     font-family: Manrope;
     font-size: 16px;
     font-weight: 600;
-}
-
-.info-value-1 {
-    margin-right: 30px;
 }
 
 .info-price {
@@ -99,7 +115,7 @@
 .mentors-tags {
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 .mentors-tag-button {
@@ -111,8 +127,19 @@
     border-radius: 8px;
     border: 1px solid #08AD8F;
     background-color: #fff;
+    cursor: pointer;
+    transition: 0.3 ease;
 }
 
 .mentors-tag-button:first-child {
     margin-top: 0;
+}
+
+.mentors-tag-button:hover {
+    background-color: #e8e8e8;
+}
+
+.mentors-descr-1-column {
+    display: flex;
+    justify-content: space-between;
 }

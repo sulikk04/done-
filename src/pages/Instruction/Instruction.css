@@ -1,0 +1,108 @@
+.insruction {
+    padding: 128px 100px 0;
+    background-color: #F8FAFC;
+}
+
+.insruction-title-wrapper {
+    text-align: center;
+}
+
+.instruction-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 64px;
+}
+
+.instruction-step {
+    background: #FFF;
+    border: 1px solid #DFE7EF;
+    border-radius: 8px;
+    width: 738px;
+    height: 796px;  
+    padding: 32px 16px;
+    margin-right: 64px;
+  }
+
+.instruction-step:last-child {
+    margin-right: 0;
+}
+
+.insruction-descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.instruction-number {
+    display: inline-block;
+    color: #334155;
+    font-family: Manrope;
+    font-size: 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.instruction-title {
+    display: inline-block;
+    color: #334155;
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.instruction-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 706px;
+    height: 558px;
+    background-color: #F7F3F3;
+}
+
+.instruction-content-text {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.instruction-button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+  
+.instruction-button {
+    display: flex;
+    height: 42px;
+    padding: 7px 10px;
+    align-items: center;
+    border-radius: 8px;
+    background: #08AD8F;
+    border: 2px solid #08AD8F;
+    cursor: pointer;
+}
+
+.instruction-button-text {
+    color: #F8FAFC;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.instruction-button:after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('../../assets/services-button.svg');
+    transform: translate(5px, 1px);
+}
+
+.instruction-button:hover {
+    background: #09a78a;
+}

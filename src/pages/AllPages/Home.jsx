@@ -2,7 +2,7 @@ import React from 'react'
 import { Main } from '../Main'
 import { Mentors } from '../Mentors'
 import { Services } from '../Services'
-import { Platform } from '../Platform'
+import { Instruction } from '../Instruction'
 
 export const Home = () => {
 
@@ -11,7 +11,7 @@ export const Home = () => {
       <Main/>
       <Mentors/>
       <Services/>
-      <Platform/>
+      <Instruction/>
     </>
   )
 }

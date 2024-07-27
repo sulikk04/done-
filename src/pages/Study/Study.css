@@ -1,0 +1,64 @@
+.study {
+    padding: 128px 100px 0;
+    min-height: 780px;
+    background-color: #F8FAFC;
+}
+
+.study-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.study-block {
+    background-color: #fff;
+    margin-top: 64px;
+    border: 1px solid #DFE7EF;
+    border-radius: 8px;
+    width: 530px;    
+}
+
+.study-block-wrapper {
+    display: flex;
+    width: 530px;    
+    padding: 8px 10px;
+}
+
+.study-number-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.study-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #08AD8F;
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 16px;
+}
+
+.study-label {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.study-text {
+    color: #334155;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+

@@ -10,3 +10,7 @@
     font-family: 'Cinzel', sans-serif;
     font-family: 'Manrope', sans-serif;
 }
+
+.wrapper {
+    overflow: hidden;
+}

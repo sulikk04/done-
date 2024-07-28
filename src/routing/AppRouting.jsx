@@ -6,14 +6,13 @@ import { Discard } from '../pages/Discard'
 
 export const AppRouting = () => {
   return (
-    <Routes>
+    <Routes> 
         {         /* header part */       }
 
 
         {         /* main page */         }
         <Route path='/home' element={<Navigate to='/' />} />
         <Route path='/' element={<Home />} />
-
 
         {         /* footer part */       }
         <Route path='/test' element={<PolicyData />} />

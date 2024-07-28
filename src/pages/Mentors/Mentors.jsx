@@ -22,27 +22,23 @@ export const Mentors = () => {
 							</div>
 							
 							
-							<div className="mentors-tags-buttons">
-								<div className="mentors-tags">
-									<button className="mentors-tag-button">Таджвид</button>
-									<button className="mentors-tag-button">Махрадж</button>
-									<button className="mentors-tag-button">и еще 9...</button>
-								</div>
+							<div className="mentors-tags">
+								<button className="mentors-tag-button">Таджвид</button>
+								<button className="mentors-tag-button">Махрадж</button>
+								<button className="mentors-tag-button">и еще 9...</button>
 							</div>
 						</div>
 						
 
 						<div className="mentors-info">
 							<div className="info-item">
-								<span className="info-label info-label-icon-1">Провел уроков на платформе: </span>
-								<span className="info-value">215</span> {/* when i get api i'll write this like a variable */}
-							</div> 
+								<span className="info-label info-label-icon-1">Провел уроков на платформе: <span className='info-value'>215</span> </span>
+							</div> 	
 							<div className="info-item">
-								<span className="info-label info-label-icon-2">Опыт:</span>
-								<span className="info-value">10 лет</span> {/* same */}
+								<span className="info-label info-label-icon-2">Опыт: <span className='info-value'>10 лет</span></span>
 							</div>
 						</div>
-						<div className="info-item">
+						<div className="info-price-wrapper">
 							<span className="info-price">500₽ / в час</span> {/*same */}
 						</div>
 					</div>

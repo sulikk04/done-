@@ -1,11 +1,17 @@
 .review {
     padding: 128px 100px 100px;
     background-color: #F8FAFC;
-    min-height: 500px;
+    min-height: 977px;
+}
+
+.review-blocks {
+    display: grid;
+    grid-template-columns: 1720px;
+    grid-template-rows: 124px;
+    row-gap: 32px;
 }
 
 .review-block {
-    margin-top: 32px;
     border: 1px solid #DFE7EF;
     border-radius: 8px;
     background: #FFF;

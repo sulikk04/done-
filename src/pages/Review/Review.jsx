@@ -14,70 +14,69 @@ export const Review = () => {
 				<div className="review-block">
 					<div className="review-block-wrapper">
 						<div className="review-user-wrapper">
-								<div className="review-user">Закарья Исаев</div>
-								<div className="review-user-mentor">учился у: Ахмад Мединский</div>
+							<div className="review-user">Закарья Исаев</div>
+							<div className="review-user-mentor">учился у: Ахмад Мединский</div>
 						</div>
 
 						<div className="review-descr">
-								<div className="review-text">Мне очень понравился подход учителя к преподованию махраджа, а больше всего понавилась сама платформа, которая стала причиной изучения Корана</div>
-								<div className="review-date">22 марта 2024г.</div>
+							<div className="review-text">Мне очень понравился подход учителя к преподованию махраджа, а больше всего понавилась сама платформа, которая стала причиной изучения Корана</div>
+							<div className="review-date">22 марта 2024г.</div>
 						</div>                    
 					</div>
-            </div>
+            	</div>
 				<div className="review-block">
 					<div className="review-block-wrapper">
 						<div className="review-user-wrapper">
-								<div className="review-user">Закарья Исаев</div>
-								<div className="review-user-mentor">учился у: Ахмад Мединский</div>
+							<div className="review-user">Закарья Исаев</div>
+							<div className="review-user-mentor">учился у: Ахмад Мединский</div>
 						</div>
 
 						<div className="review-descr">
-								<div className="review-text">Мне очень понравился подход учителя к преподованию махраджа, а больше всего понавилась сама платформа, которая стала причиной изучения Корана</div>
-								<div className="review-date">22 марта 2024г.</div>
+							<div className="review-text">Мне очень понравился подход учителя к преподованию махраджа, а больше всего понавилась сама платформа, которая стала причиной изучения Корана</div>
+							<div className="review-date">22 марта 2024г.</div>
 						</div>                    
 					</div>
-            </div>
+            	</div>
 				<div className="review-block">
 					<div className="review-block-wrapper">
 						<div className="review-user-wrapper">
-								<div className="review-user">Закарья Исаев</div>
-								<div className="review-user-mentor">учился у: Ахмад Мединский</div>
+							<div className="review-user">Закарья Исаев</div>
+							<div className="review-user-mentor">учился у: Ахмад Мединский</div>
 						</div>
 
 						<div className="review-descr">
-								<div className="review-text">Мне очень понравился подход учителя к преподованию махраджа, а больше всего понавилась сама платформа, которая стала причиной изучения Корана</div>
-								<div className="review-date">22 марта 2024г.</div>
+							<div className="review-text">Мне очень понравился подход учителя к преподованию махраджа, а больше всего понавилась сама платформа, которая стала причиной изучения Корана</div>
+							<div className="review-date">22 марта 2024г.</div>
 						</div>                    
 					</div>
-            </div>
+            	</div>
 				<div className="review-block">
 					<div className="review-block-wrapper">
 						<div className="review-user-wrapper">
-								<div className="review-user">Закарья Исаев</div>
-								<div className="review-user-mentor">учился у: Ахмад Мединский</div>
+							<div className="review-user">Закарья Исаев</div>
+							<div className="review-user-mentor">учился у: Ахмад Мединский</div>
 						</div>
 
 						<div className="review-descr">
-								<div className="review-text">Мне очень понравился подход учителя к преподованию махраджа, а больше всего понавилась сама платформа, которая стала причиной изучения Корана</div>
-								<div className="review-date">22 марта 2024г.</div>
+							<div className="review-text">Мне очень понравился подход учителя к преподованию махраджа, а больше всего понавилась сама платформа, которая стала причиной изучения Корана</div>
+							<div className="review-date">22 марта 2024г.</div>
 						</div>                    
 					</div>
-            </div>
+            	</div>
 				<div className="review-block">
 					<div className="review-block-wrapper">
 						<div className="review-user-wrapper">
-								<div className="review-user">Закарья Исаев</div>
-								<div className="review-user-mentor">учился у: Ахмад Мединский</div>
+							<div className="review-user">Закарья Исаев</div>
+							<div className="review-user-mentor">учился у: Ахмад Мединский</div>
 						</div>
 
 						<div className="review-descr">
-								<div className="review-text">Мне очень понравился подход учителя к преподованию махраджа, а больше всего понавилась сама платформа, которая стала причиной изучения Корана</div>
-								<div className="review-date">22 марта 2024г.</div>
+							<div className="review-text">Мне очень понравился подход учителя к преподованию махраджа, а больше всего понавилась сама платформа, которая стала причиной изучения Корана</div>
+							<div className="review-date">22 марта 2024г.</div>
 						</div>                    
 					</div>
-            </div>
+            	</div>
 			</div>
-
       </div>
     </div>
   )

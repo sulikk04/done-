@@ -24,9 +24,9 @@ export const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="serv-button-wrapper">
+                    {/* <div className="serv-button-wrapper">
                         <button className="serv-button serv-button-logo"><Link to='' className="serv-button-text">Приступить</Link></button>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="serv-block">
                     <div className="serv-block-wrapper">
@@ -40,49 +40,49 @@ export const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="serv-button-wrapper">
+                    {/* <div className="serv-button-wrapper">
                         <button className="serv-button serv-button-logo"><Link to='' className="serv-button-text">Приступить</Link></button>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="serv-block">
                     <div className="serv-block-wrapper">
                         <div className="serv-descr">
                             <div className="serv-round">
                                 <div className="serv-icon"><div className="serv-icon-3"></div></div>
-                                <div className="subtitle-young"><div className="serv-subtitle ">Для молодых</div></div>
+                                <div className="serv-subtitle">Для молодых</div>
                             </div>
                             <div className="serv-text">
                             Молодежь найдет на нашей платформе отличные возможности для поиска наставников по изучению Корана. Интерактивные и индивидуальные занятия с опытными наставниками помогают молодым людям глубже понять религиозные тексты и их значимость в современной жизни. Платформа поддерживает стремление молодежи к духовному и интеллектуальному развитию, предлагая гибкий график и доступ к наставникам, которые могут вдохновить и направить их на пути изучения Корана.
                             </div>
                         </div>
                     </div>
-                    <div className="serv-button-wrapper">
+                    {/* <div className="serv-button-wrapper">
                         <button className="serv-button serv-button-logo"><Link to='' className="serv-button-text">Приступить</Link></button>
-                    </div>
+                    </div> */}
                 </div> 
-            </div>
             
-            <div className="serv-info-wrapper">
-                <div className="serv-info">
-                    <div className="serv-details">
-                        <div className="serv-sublabel">100 занятий</div>
-                        <div className="serv-subtext">Проведено на нашей платформе</div>
+                <div className="serv-info-wrapper">
+                    <div className="serv-info">
+                        <div className="serv-details">
+                            <div className="serv-sublabel">100 занятий</div>
+                            <div className="serv-subtext">Проведено на нашей платформе</div>
+                        </div>
+                        <div className="serv-subicon"></div>
                     </div>
-                    <div className="serv-subicon"></div>
-                </div>
-                <div className="serv-info">
-                    <div className="serv-details">
-                        <div className="serv-sublabel serv-sublabel-2">10 наставников</div>
-                        <div className="serv-subtext serv-subtext-2">Готовых поделиться с вами своим опытом</div>
+                    <div className="serv-info">
+                        <div className="serv-details">
+                            <div className="serv-sublabel serv-sublabel-2">10 наставников</div>
+                            <div className="serv-subtext serv-subtext-2">Готовых поделиться с вами своим опытом</div>
+                        </div>
+                        <div className="serv-subicon serv-subicon-2"></div>
                     </div>
-                    <div className="serv-subicon serv-subicon-2"></div>
-                </div>
-                <div className="serv-info">
-                    <div className="serv-details">
-                        <div className="serv-sublabel">50 учеников</div>
-                        <div className="serv-subtext">Пользуются нашей платформой</div>
+                    <div className="serv-info">
+                        <div className="serv-details">
+                            <div className="serv-sublabel">50 учеников</div>
+                            <div className="serv-subtext">Пользуются нашей платформой</div>
+                        </div>
+                        <div className="serv-subicon serv-subicon-3"></div>
                     </div>
-                    <div className="serv-subicon serv-subicon-3"></div>
                 </div>
             </div>
         </div>

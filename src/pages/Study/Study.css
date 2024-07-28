@@ -5,21 +5,20 @@
 }
 
 .study-blocks {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 530px 530px 530px;
+    column-gap: 64px;
+    row-gap: 64px;
 }
 
 .study-block {
     background-color: #fff;
-    margin-top: 64px;
     border: 1px solid #DFE7EF;
     border-radius: 8px;
-    width: 530px;    
 }
 
 .study-block-wrapper {
     display: flex;
-    width: 530px;    
     padding: 8px 10px;
 }
 

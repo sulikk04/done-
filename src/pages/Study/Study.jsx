@@ -47,10 +47,7 @@ export const Study = () => {
                         </div>                    
                     </div>
                 </div>
-            </div>
 
-
-            <div className="study-blocks">
                 <div className="study-block">
                     <div className="study-block-wrapper">
                         <div className="study-number-wrapper">
@@ -87,10 +84,7 @@ export const Study = () => {
                         </div>
                     </div>
                 </div>
-            </div>
 
-
-            <div className="study-blocks">
                 <div className="study-block">
                     <div className="study-block-wrapper">
                         <div className="study-number-wrapper">
@@ -127,10 +121,8 @@ export const Study = () => {
                         </div>                    
                     </div>
                 </div>
-            </div>
 
-            <div className="study-blocks">
-            <div className="study-block">
+                <div className="study-block">
                     <div className="study-block-wrapper">
                         <div className="study-number-wrapper">
                             <div className="study-number">10</div>
@@ -166,26 +158,8 @@ export const Study = () => {
                         </div>                    
                     </div>
                 </div>
-            </div>
+            </div> {/* .blocks */}
         </div>
     </div>
   )
 }
-
-{/*         <div className="study-blocks">
-                
-                
-                
-            </div>
-
-            <div className="study-blocks">
-                
-                
-                
-            </div>
-
-            <div className="study-blocks">
-                
-                
-                
-            </div> */}

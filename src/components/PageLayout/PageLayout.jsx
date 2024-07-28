@@ -7,7 +7,7 @@ import { ScrollToTop } from '../scrollToTop'
 
 export const PageLayout = ({children}) => {
     return (
-        <div>
+        <div className='wrapper'>
             <ScrollToTop/>
             <Header/>
             <main>{children}</main>

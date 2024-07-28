@@ -4,13 +4,13 @@
 }
 
 .commission-wrapper {
-    width: 1020px;
+    width: 1061px;
     margin: 0 auto;
 }
 
 .commission-png {
     background: url('../../assets/commission.png');
-    height: 818px;
+    height: 819px;
 }
 
 .commission-descr {
@@ -35,7 +35,7 @@
 .commission-button {
     width: 267px;
     height: 65px;
-    padding: 7px 10px;
+    padding: 16px 20px;
     border-radius: 8px;
     background: #08AD8F;
     border: 2px solid #08AD8F;
@@ -46,7 +46,7 @@
     color: #F8FAFC;
     text-align: center;
     font-family: Manrope;
-    font-size: 24px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

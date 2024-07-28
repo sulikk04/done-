@@ -14,10 +14,7 @@ export const Instruction = () => {
                 <div className="instruction-step">
                     <div className="instruction-number">1</div>
                     <div className="instruction-title">Найдите наставника</div>
-                    <div className="instruction-content">
-                        <div className='instruction-content-text'>Тут плеер с видеоинструкцией</div>
-                        <div className='like-content-u-know'></div>
-                    </div>
+                    <div className="instruction-content"></div>
                     <div className="instruction-button-wrapper">
                         <button className="instruction-button"><div className='instruction-button-text'>Далее</div></button>
                     </div>
@@ -25,12 +22,19 @@ export const Instruction = () => {
                 <div className="instruction-step">
                     <div className="instruction-number">2</div>
                     <div className="instruction-title">Найдите наставника</div>
-                    <div className="instruction-content">
-                        <div className='instruction-content-text'>Тут плеер с видеоинструкцией</div>
-                        <div className='like-content-u-know'></div>
-                    </div>
+                    <div className="instruction-content"></div>
                     <div className="instruction-button-wrapper">
                         <button className="instruction-button"><div className='instruction-button-text'>Далее</div></button>
+                    </div>
+                </div>
+                <div className="instruction-step">
+                    <div className="instruction-number">3</div>
+                    <div className="instruction-title">Найдите наставника</div>
+                    <div className="instruction-content"></div>
+                    <div className="instruction-button-wrapper">
+                        <button className="instruction-button">
+                            <div className='instruction-button-text'>Далее</div>
+                        </button>
                     </div>
                 </div>
             </div>

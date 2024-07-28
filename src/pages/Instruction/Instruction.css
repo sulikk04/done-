@@ -5,35 +5,22 @@
 
 .insruction-title-wrapper {
     text-align: center;
+    margin-bottom: 64px;
 }
 
 .instruction-block {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 738px 738px 738px;
+    grid-template-rows: 796px;
+    column-gap: 64px;
 }
 
 .instruction-step {
     background: #FFF;
     border: 1px solid #DFE7EF;
     border-radius: 8px;
-    width: 738px;
-    height: 796px;  
     padding: 32px 16px;
-    margin-right: 64px;
-  }
-
-.instruction-step:last-child {
-    margin-right: 0;
-}
-
-.insruction-descr {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
+ }
 
 .instruction-number {
     display: inline-block;
@@ -55,8 +42,6 @@
 }
 
 .instruction-content {
-    display: flex;
-    align-items: center;
     justify-content: center;
     width: 706px;
     height: 558px;
@@ -78,10 +63,11 @@
   
 .instruction-button {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 93px;
     height: 42px;
     padding: 7px 10px;
-    align-items: center;
     border-radius: 8px;
     background: #08AD8F;
     border: 2px solid #08AD8F;
@@ -101,7 +87,7 @@
     width: 16px;
     height: 16px;
     background: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3e%3cpath d='M0.536621 3.73499V12.265L8.00062 7.99949L0.536621 3.73499ZM1.06962 4.65349L6.92562 7.99949L1.06962 11.346V4.65349Z' fill='%23F8FAFC'/%3e%3cpath d='M8 3.73499V12.265L15.464 7.99949L8 3.73499ZM8.533 4.65349L14.389 7.99949L8.533 11.346V4.65349Z' fill='%23F8FAFC'/%3e%3c/svg%3e");
-    transform: translate(5px, 1px);
+    /* transform: translate(5px, 1px); */
 }
 
 .instruction-button:hover {
